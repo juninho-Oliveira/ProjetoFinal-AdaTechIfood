@@ -1,4 +1,4 @@
-# ProjetoFinal-AdaTechIfood
+/*
 Lógica de Programação - Projeto final
 O que?
 Desenvolver, utilizando os conceitos abordados ao longo do módulo, uma aplicação de lista de tarefas (ToDo List).
@@ -18,3 +18,14 @@ Obter uma tarefa, através de um parâmetro (id)
 
 Observações
 Não haverá a persistência das tarefas em banco de dados. Para isso, podem utilizar um array para armazenar a lista das tarefas cadastradas.
+*/
+
+let lista = [];
+
+//Adicionar uma tarefa
+function addTarefa (id, nome, status) {
+  lista.push({id, nome, status})
+  return lista
+}
+
+console.log(addTarefa(1, "trabalhar", "fazer"))
