@@ -33,12 +33,19 @@ function addTarefa (id, nome, status) {
 addTarefa(2, "Estudar", "Em andamento")
 addTarefa(3, "Compras", "Pendente")
 
+console.log(lista)
 //Editar uma tarefa salva
-function editarTarefa(nome) {
-
+function editarTarefa(nome, editar) {
+  for(i in lista) {
+    if (nome === lista[i].nome){
+      lista[i].nome = editar
+      return lista
+    }
+  }
+  
 }
 
-editarTarefa()
+console.log(editarTarefa("Estudar", "Meditar"))
 
 //Remover uma tarefa salva
 function removerTarefa (nome) {
