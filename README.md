@@ -8,10 +8,10 @@ Desenvolver, utilizando os conceitos abordados ao longo do módulo, uma aplicaç
 Requisitos
 Dentre as funcionalidades, espera-se que seja possível:
 
-Adicionar uma tarefa
-Editar uma tarefa salva
-Remover uma tarefa salva
-Listar todas as tarefas salvas
+Adicionar uma tarefa <br>
+Editar uma tarefa salva <br>
+Remover uma tarefa salva <br>
+Listar todas as tarefas salvas <br>
 Obter uma tarefa, através de um parâmetro (id)
 
 ---
